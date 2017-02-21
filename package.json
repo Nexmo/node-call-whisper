@@ -1,0 +1,7 @@
+{
+  "repository": "https://github.com/Nexmo/node-call-whispher",
+  "dependencies": {
+    "nexmo": "^1.2.0"
+  },
+  "license": "MIT"
+}
