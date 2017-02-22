@@ -49,7 +49,7 @@ The next step is to set up all of our variables in a `.env` file. You can start 
 mv .env.example .env
 ```
 
-Fill in the values in `.env` as appropriate, where `INBOUND_NUMBER_1` and `INBOUND_NUMBER_2` are the numbers you just purchased, `CALL_CENTER_NUMBER` is the number you want them to direct to, and `NEXMO_APP_FILE_NAME` is the file name of your application key (`app.key`).
+Fill in the values in `.env` as appropriate, where `INBOUND_NUMBER_1` and `INBOUND_NUMBER_2` are the numbers you just purchased, `CALL_CENTER_NUMBER` is the number you want them to direct to, and `NEXMO_APP_FILE_NAME` is the file name of your application key (`app.key`). Finally, `DOMAIN` is the public domain or hostname your server is available on. 
 
 With this in place you can start the server.
 
