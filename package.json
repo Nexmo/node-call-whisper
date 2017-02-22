@@ -1,7 +1,26 @@
 {
+  "name": "call-whisper",
+  "description": "An example application that shows how to use the Nexmo Voice API on how to add Call Whispers to any call.",
+  "version": "1.0.0",
+  "main": "./lib/server.js",
+  "author": "Cristiano betta <cristiano@betta.io> (http://betta.io)",
+  "scripts": {
+    "start": "nodemon ./lib/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "sms",
+    "proxy",
+    "nexmo"
+  ],
   "repository": "https://github.com/Nexmo/node-call-whispher",
   "dependencies": {
+    "dotenv": "^4.0.0",
+    "express": "^4.14.1",
     "nexmo": "^1.2.0"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
 }
