@@ -29,7 +29,7 @@ To run this application we need to buy 2 numbers, set up an application, and tie
 # create an application
 > nexmo app:create "Whisper System" http://your.domain/answer_inbound http://your.domain/event --type voice --keyfile app.key
 # check the application ID
-> nexo app:list
+> nexmo app:list
 12345678-1234-1234-1234-1234567890 | Whisper System
 # purchase 2 numbers
 > nexmo number:buy 4420 -c GB  --confirm
