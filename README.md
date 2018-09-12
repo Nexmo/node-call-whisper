@@ -1,6 +1,6 @@
 # Add a Call Whisper using Node and the Nexmo Voice API
 
-This app used the Nexmo Voice APIs to demonstrate how add a Voice Whisper to a call, letting the
+This app used the Nexmo Voice APIs to demonstrate how add a "whisper" (a spoken announcement to only one caller before connecting) to a call using the `onAnswer` feature.
 
 ## Prerequisites
 
@@ -64,3 +64,7 @@ The application should be available on <http://localhost:5000>. For this to work
 To use the app you need two phones, or a phone and something like Skype to make the first call.
 
 With your server running, call either of the 2 numbers you purchased. Nexmo will then make a call to `http://your.domain/answer_inbound` which puts the inbound call on hold. A call is then made to the `CALL_CENTER_NUMBER`(your other phone) where a message is played regarding the nature of the call before both parties are connected to the same conference.
+
+## More Information
+
+For a more detailed writeup, see the [tutorial on the Nexmo Developer Portal](https://developer.nexmo.com/tutorials/add-a-call-whisper-to-an-inbound-call).
