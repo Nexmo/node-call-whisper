@@ -16,8 +16,7 @@
   "repository": "https://github.com/Nexmo/node-call-whispher",
   "dependencies": {
     "dotenv": "^4.0.0",
-    "express": "^4.14.1",
-    "nexmo": "^1.2.0"
+    "express": "^4.14.1"
   },
   "license": "MIT",
   "devDependencies": {
